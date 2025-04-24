@@ -9,5 +9,6 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/devlabsbg'
   s.swift_version    = '4.2'
   s.ios.deployment_target = '12.0'
+  s.macos.deployment_target = '12.0'
   s.source_files     = 'Sources/**/*'
 end
